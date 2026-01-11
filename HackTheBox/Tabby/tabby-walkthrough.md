@@ -58,11 +58,11 @@ Whenever you see  Apache Tomcat  in Nmap results, your mental checklist should
 10.129.37.41:8080
 ```
 
-![Screenshot 2026-01-10 at 7.08.23 PM.png](Tabby/Screenshot_2026-01-10_at_7.08.23_PM.png)
+![Screenshot 2026-01-10 at 7.08.23 PM.png](images/Screenshot_2026-01-10_at_7.08.23_PM.png)
 
 Do LFI, visit “view-source:[http://megahosting.htb/news.php?file=../../../../usr/share/tomcat9/etc/tomcat-users.xml](http://megahosting.htb/news.php?file=../../../../usr/share/tomcat9/etc/tomcat-users.xml)” to get the credential
 
-![Screenshot 2026-01-10 at 7.29.34 PM.png](Tabby/Screenshot_2026-01-10_at_7.29.34_PM.png)
+![Screenshot 2026-01-10 at 7.29.34 PM.png](images/Screenshot_2026-01-10_at_7.29.34_PM.png)
 
 As we have manager-script role, we can use `/deploy` endpoint to upload malicious code
 
