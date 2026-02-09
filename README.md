@@ -47,6 +47,6 @@ Learning logs structured by vulnerability class and attack vector.
 ---
 
 ### 📫 Connect
-[Email](mailto:jacochan0382@gmail.com)
+Email: jacochan0382@gmail.com
 
 
