@@ -1,0 +1,14 @@
+{
+  "newIssues": [
+    {
+      "issueData": {
+        "id": "CVE-2024-1234",
+        "title": "Example vuln",
+        "severity": "high"
+      },
+      "pkgName": "flask",
+      "pkgVersions": ["2.0.0"],
+      "issueUrl": "https://snyk.io/vuln/CVE-2024-1234"
+    }
+  ]
+}
